@@ -22,24 +22,28 @@
 }
 
 @media (min-width: 576px) {
+  /* sm */
   .container {
     max-width: 540px;
   }
 }
 
 @media (min-width: 768px) {
+  /* md */
   .container {
     max-width: 720px;
   }
 }
 
 @media (min-width: 992px) {
+  /* lg */
   .container {
     max-width: 960px;
   }
 }
 
 @media (min-width: 1200px) {
+  /* xl */
   .container {
     max-width: 1140px;
   }
@@ -58,18 +62,18 @@
 
 /* Default styles for all col-classes */
 
-.xs-col-1,
-.xs-col-2,
-.xs-col-3,
-.xs-col-4,
-.xs-col-5,
-.xs-col-6,
-.xs-col-7,
-.xs-col-8,
-.xs-col-9,
-.xs-col-10,
-.xs-col-11,
-.xs-col-12,
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-10,
+.col-11,
+.col-12,
 .sm-col-1,
 .sm-col-2,
 .sm-col-3,
@@ -126,48 +130,46 @@
 
 /* INDIVIDUAL BREAKPOINTS */
 
-/* Extra Small */
+/* All breakpoints: Extra small and above */
 
-@media (min-width: 320px) {
-  .xs-col-1 {
-    width: 8.333333%;
-  }
-  .xs-col-2 {
-    width: 16.666666%;
-  }
-  .xs-col-3 {
-    width: 25%;
-  }
-  .xs-col-4 {
-    width: 33.333333%;
-  }
-  .xs-col-5 {
-    width: 41.666666%;
-  }
-  .xs-col-6 {
-    width: 50%;
-  }
-  .xs-col-7 {
-    width: 58.333%;
-  }
-  .xs-col-8 {
-    width: 66.666666%;
-  }
-  .xs-col-9 {
-    width: 75%;
-  }
-  .xs-col-10 {
-    width: 83.333333%;
-  }
-  .xs-col-11 {
-    width: 91.666666%;
-  }
-  .xs-col-12 {
-    width: 100%;
-  }
+.col-1 {
+  width: 8.333333%;
+}
+.col-2 {
+  width: 16.666666%;
+}
+.col-3 {
+  width: 25%;
+}
+.col-4 {
+  width: 33.333333%;
+}
+.col-5 {
+  width: 41.666666%;
+}
+.col-6 {
+  width: 50%;
+}
+.col-7 {
+  width: 58.333%;
+}
+.col-8 {
+  width: 66.666666%;
+}
+.col-9 {
+  width: 75%;
+}
+.col-10 {
+  width: 83.333333%;
+}
+.col-11 {
+  width: 91.666666%;
+}
+.col-12 {
+  width: 100%;
 }
 
-/* Small */
+/* Small and above */
 
 @media (min-width: 576px) {
   .sm-col-1 {
@@ -208,7 +210,7 @@
   }
 }
 
-/* Medium */
+/* Medium and above */
 
 @media (min-width: 768px) {
   .md-col-1 {
@@ -249,7 +251,7 @@
   }
 }
 
-/* Large */
+/* Large and above */
 
 @media (min-width: 992px) {
   .lg-col-1 {
@@ -289,7 +291,8 @@
     width: 100%;
   }
 }
-/* Extra Large */
+
+/* Extra large and above */
 
 @media (min-width: 1200px) {
   .xl-col-1 {
