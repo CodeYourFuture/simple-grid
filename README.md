@@ -14,27 +14,27 @@ A 12-column system works like this:
 
 ```      
   <main class="container">
-      <section class="block-of-items row">
+      <section class="row">
 
-        <div class="item-wrapper col-12 md-col-6 lg-col-3">
+        <div class="col-12 md-col-6 lg-col-3">
           <div class="item">
             <!-- content goes here -->
           </div>
         </div>
 
-        <div class="item-wrapper col-12 md-col-6 lg-col-3">
+        <div class="col-12 md-col-6 lg-col-3">
           <div class="item">
             <!-- content goes here -->
           </div>
         </div>
 
-        <div class="item-wrapper col-12 md-col-6 lg-col-3">
+        <div class="col-12 md-col-6 lg-col-3">
           <div class="item">
             <!-- content goes here -->
           </div>
         </div>
 
-        <div class="item-wrapper col-12 md-col-6 lg-col-3">
+        <div class="col-12 md-col-6 lg-col-3">
           <div class="item">
             <!-- content goes here -->
           </div>
